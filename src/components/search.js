@@ -17,7 +17,7 @@ class Search extends React.Component {
                     <div className="panel-body">
                         <form>
                             <div className="form-group">
-                                <label>Search Term:</label>
+                                <label>Searh Topic:</label>
                                 <input 
                                 onChange={handleInputChange}
                                 value={search}
@@ -33,7 +33,7 @@ class Search extends React.Component {
                             type="submit" 
                             className="btn btn-default" 
                             id="search-btn">
-                            Search
+                            Search Ny Times!
                             </button>
                             
                         </form>
